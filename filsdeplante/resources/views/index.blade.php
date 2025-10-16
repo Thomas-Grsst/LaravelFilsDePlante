@@ -3,6 +3,9 @@
 @section('page-css')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @endsection
+@section('page-js')
+    <script src="{{ asset('js/main.js') }}"></script>
+@endsection
 
 
 
@@ -130,4 +133,5 @@
             </div>
         </div>
         </section>
+        
 @endsection

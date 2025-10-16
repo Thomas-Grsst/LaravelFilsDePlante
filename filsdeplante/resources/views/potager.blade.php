@@ -3,6 +3,9 @@
 @section('page-css')
     <link rel="stylesheet" href="{{ asset('css/potager.css') }}">
 @endsection
+@section('page-js')
+    <script src="{{ asset('js/potager.js') }}"></script>
+@endsection
 
 
 <!-- Bannière principale -->

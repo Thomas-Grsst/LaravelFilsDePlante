@@ -3,6 +3,9 @@
 @section('page-css')
     <link rel="stylesheet" href="{{ asset('css/guides.css') }}">
 @endsection
+@section('page-js')
+    <script src="{{ asset('js/guides.js') }}"></script>
+@endsection
 
 
 <!-- Bannière principale -->

@@ -3,6 +3,9 @@
 @section('page-css')
     <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
 @endsection
+@section('page-js')
+    <script src="{{ asset('js/contact.js') }}"></script>
+@endsection
 
 
 <!-- Bannière principale -->

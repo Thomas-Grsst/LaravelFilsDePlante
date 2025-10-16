@@ -78,5 +78,8 @@
                 <p>&copy; 2025 Fils de Plante - Tous droits réservés</p>
             </div>
         </footer>
+
+        <script src="{{ asset('js/main.js') }}"></script>
+        @yield('page-js')
     </body>
 </html>
