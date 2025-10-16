@@ -1,5 +1,9 @@
 @extends('layout')
 @section('content')
+@section('page-css')
+    <link rel="stylesheet" href="{{ asset('css/guides.css') }}">
+@endsection
+
 
 <!-- Bannière principale -->
     <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');">

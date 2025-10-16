@@ -1,5 +1,8 @@
 @extends('layout')
 @section('content')
+@section('page-css')
+    <link rel="stylesheet" href="{{ asset('css/vegetaux.css') }}">
+@endsection
 
 <!-- Bannière principale -->
     <section class="hero" style="background-image: url('https://wallpaperaccess.com/full/1276644.jpg');">

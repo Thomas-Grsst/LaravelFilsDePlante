@@ -1,5 +1,9 @@
 @extends('layout')
 @section('content')
+@section('page-css')
+    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+@endsection
+
 
 <!-- Bannière principale -->
     <section class="hero">

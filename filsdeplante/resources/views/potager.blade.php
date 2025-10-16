@@ -1,5 +1,9 @@
 @extends('layout')
 @section('content')
+@section('page-css')
+    <link rel="stylesheet" href="{{ asset('css/potager.css') }}">
+@endsection
+
 
 <!-- Bannière principale -->
     <section class="hero" style="background-image: url('https://images.pexels.com/photos/7658822/pexels-photo-7658822.jpeg');">
