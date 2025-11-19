@@ -1,0 +1,1 @@
+<h2 class="mt-11 text-[1.5rem] font-bold text-center mb-10 text-primary relative after:block after:w-20 after:h-1 after:bg-accent after:my-2 after:mx-auto">{{$slot}}</h2>
